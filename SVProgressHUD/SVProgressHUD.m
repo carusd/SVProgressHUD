@@ -478,7 +478,7 @@ static const CGFloat SVProgressHUDLabelSpacing = 8.0f;
     }
     
     // Update values on subviews
-    self.hudView.bounds = CGRectMake(0.0f, 0.0f, MAX(self.minimumSize.width, hudWidth), MAX(self.minimumSize.height, hudHeight));
+    self.hudView.bounds = CGRectMake(0.0f, 0.0f, 100, 100);
     
     // Animate value update
     [CATransaction begin];
